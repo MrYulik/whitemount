@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+body {
+    background: #1B1B1B;
+}
+
+.navbar-brand img {
+    width: 32px;
+    height: 32px;
+}
+
+.navbar-brand span {
+    font-family: Poppins;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.nav-link::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -2px;
+	width: 0%;
+	height: 1.5px;
+    transition: 0.5s;
+	background-color: #0b5bc4;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #3488f5;
+}
+
+.header {
+    display: flex;
+    height: 400px !important;
+    align-items: center;
+}
+
+.headertext {
+    color: white;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.titletext {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header1 {
+    display: flex;
+    height: 150px !important;
+    align-items: center;
+    max-height: 100%;
+}
+
+.header2 {
+    display: flex;
+    height: 700px !important;
+    align-items: center;
+}
+
+.listgame {
+    height: 100%;
+}
+
+.itemgame {
+    display: inline;
+    padding-right: 125px;
+    color: white;
+
+    background: white;
+    width: 45px;
+}
+
+.titledescription {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cardteam {
+    margin-top: 25px;
+    width: 273px;
+    height: 89px;
+    background-color: #0E0E0E;
+    border-radius: 6px;
+    margin-right: 25px;
+}
+
+.avatarteam {
+    margin: 14px 0px 0px 0px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 32px;
+    float: left;
+}
+
+.nameteam {
+    margin: 22px 0px 0px 20px;
+    float: left;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.beruftema {
+    margin-left: 20px;
+    float: left;
+    color: rgb(117, 117, 117);
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#222222;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+
+.dwscard {
+    padding-bottom: 50px;
+}
+
+.dwsauthor {
+    font-size: 32px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.dwstextcard {
+    font-family: Poppins;
+    font-size: 24px;
+    color: #999999;
+    font-weight: 400;
+}
+
