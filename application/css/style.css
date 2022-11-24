@@ -245,3 +245,22 @@ body {
     font-weight: 400;
 }
 
+li {
+  list-style: none;
+}
+
+.tags-box {
+  margin-left: 42%;
+  width: 164px;
+  height: 42px;
+  background-color: #0b5bc4;
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tags-container {
+  display: inline-block;
+}
