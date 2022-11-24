@@ -97,8 +97,9 @@ body {
 .titledescription {
     color: white;
     font-family: Poppins;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
     text-align: center;
     margin-top: 25px;
 }
@@ -232,15 +233,15 @@ body {
 }
 
 .dwsauthor {
-    font-size: 32px;
+    font-size: 28px;
     color: white;
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .dwstextcard {
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     color: #999999;
     font-weight: 400;
 }
@@ -251,16 +252,50 @@ li {
 
 .tags-box {
   margin-left: 42%;
-  width: 164px;
-  height: 42px;
+  width: 152px;
+  height: 32px;
   background-color: #0b5bc4;
   color: white;
   text-align: center;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .tags-container {
   display: inline-block;
+}
+
+html {
+  --scrollbarBG: #242424;
+  --thumbBG: #ffffff;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+#block1 {
+}
+
+#block2 {
+}
+
+#block3 {
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
 }
