@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #1B1B1B;
+}
+
+.navbar-brand img {
+    width: 38px;
+    height: 38px;
+}
+
+.navbar-brand span {
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 6px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    color: white !important;
+    margin-bottom: 15px;
+
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #215ee2 !important;
+}
+
+.nav-item {
+    list-style: none;
+    float: right;
+}
+
+.main_title {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.main_container {
+    margin-top: 200px;
+}
+
+.card_title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dws-card {
+    background-image: url("../images/devastation.png");
+    background-size: 364px 364px;
+    width: 250px;
+    height: 364px;
+    border-radius: 16px;
+}
+
+.dws-card-filter {
+    width: 250px;
+    height: 364px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(0px);
+
+    transition: 1s;
+}
+
+.dws-card-filter:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.dws-card h4 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+    position: absolute;
+    top: 90%;
+    margin-left: 29%;
+}
+
+.description_class {
+    color: white;
+    font-size: 28px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.card-team {
+    width: 232px;
+    height: 64px;
+    background: #0E0E0E;
+    border-radius: 2px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.card-icon {
+    width: 42px;
+    height: 42px;
+    background-color: #D9D9D9;
+    border-radius: 32px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.card-name {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: -42px;
+    margin-left: 62px;
+}
+
+.card-rang {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: rgb(192, 192, 192);
+    margin-left: 62px;
+    margin-top: -5px;
+}
+
+/* Footer */
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#222222;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+
+.dwscard {
+    padding-bottom: 50px;
+}
+
+.dwsauthor {
+    font-size: 28px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.dwstextcard {
+    font-family: Poppins;
+    font-size: 20px;
+    color: #999999;
+    font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.tags-box {
+  margin-left: 42%;
+  width: 152px;
+  height: 32px;
+  background-color: #0b5bc4;
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tags-container {
+  display: inline-block;
+}
+
+html {
+  --scrollbarBG: #242424;
+  --thumbBG: #ffffff;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}

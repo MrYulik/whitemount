@@ -1,0 +1,17 @@
+p {
+    color: white !important;
+}
+
+li {
+    color: #999999 !important;
+}
+
+a {
+    text-decoration: gray;
+    color: #0b5bc4;
+}
+
+strong {
+    color: white;
+    font-size: 32px;
+}
