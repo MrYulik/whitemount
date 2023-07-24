@@ -6,3 +6,12 @@
     margin-top: 200px;
 }
 
+.center {
+    text-align: center;
+}
+
+.main_description {
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    text-align: center;
+}
