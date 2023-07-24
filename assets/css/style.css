@@ -59,7 +59,7 @@ body {
 }
 
 .dws-card {
-    background-image: url("../images/devastation.png");
+    background: #999999;
     background-size: 364px 364px;
     width: 250px;
     height: 364px;
@@ -399,4 +399,9 @@ body::-webkit-scrollbar-thumb {
         border-radius: 50%;
     }
 
+}
+
+img:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }

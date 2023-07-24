@@ -15,3 +15,25 @@
     font-size: 18px;
     text-align: center;
 }
+
+.bgdevblog1 {
+    background-image: url('../images/stone_axe_render.png');
+}
+
+.main_description1 {
+    color: rgb(138, 138, 138);
+    font-size: 18px;
+}
+
+.devblogimage {
+    width: 700px;
+    height: 400px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.main_description1::before {
+    content: ' [BASIC]';
+    background-color: #547652;
+    margin-right: 15px;
+}
